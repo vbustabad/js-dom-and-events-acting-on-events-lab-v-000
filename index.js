@@ -15,7 +15,11 @@ function retrieveEmployeeInformation() {
 function addNewElementAsLi() {
   const input = document.querySelector("input").value;
 
-  return $('.employee-list').append(input);
+  function employeeList() {
+    return $('.employee-list')
+    }
+
+  return employeeList().append(input);
 }
 
 function addNewLiOnClick() {
