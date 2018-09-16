@@ -21,4 +21,13 @@ function addNewLiOnClick() {
 }
 
 function clearEmployeeListOnLinkClick() {
+
+  function clearList() {
+    const list = document.querySelector(".employee-list");
+    list = [];
+    return list;
+  }
+
+  document.querySelector('form').addEventListener('click', clearList(){
+  })
 }
