@@ -19,7 +19,7 @@ function addNewElementAsLi() {
   newitem.appendChild(textnode);
 
   const list = document.getElementsByClassName("employee-list");
-  return list.appendChild(newitem);
+  return list.insertBefore(newitem, list.firstChild);
 }
 
 function addNewLiOnClick() {
