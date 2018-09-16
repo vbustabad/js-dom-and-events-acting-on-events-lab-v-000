@@ -20,7 +20,6 @@ function addNewElementAsLi() {
 
   const list = document.getElementsByClassName("employee-list");
   list.insertBefore(new_line_item, list.firstChild);
-  return list;
 }
 
 function addNewLiOnClick() {
