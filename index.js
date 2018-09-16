@@ -24,7 +24,8 @@ function addNewLiOnClick() {
 function clearEmployeeListOnLinkClick() {
 
   function clearList() {
-    const list = document.querySelector(".employee-list");
+    let list = document.querySelector(".employee-list");
+    list = '';
     // list = removeAllChildrenFromNode(list);
     // while (list.firstChild) {
     //   list.removeChild(parent.firstChild);
