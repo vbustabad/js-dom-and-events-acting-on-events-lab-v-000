@@ -14,8 +14,12 @@ function retrieveEmployeeInformation() {
 
 function addNewElementAsLi() {
   const input = document.querySelector("input").value;
+  const newItem = document.createElement("li");
+  const textnode = document.createTextNode(input);
+  newItem.appendChild(textnode);
 
-  return $('.employee-list').append(input);
+  const list = document.getElementsByClassName("employee-list");
+  return list.insertBefore(newItem, list.childNodes[0]);
 }
 
 function addNewLiOnClick() {
