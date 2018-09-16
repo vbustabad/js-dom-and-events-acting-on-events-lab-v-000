@@ -23,7 +23,7 @@ function addNewLiOnClick() {
 function clearEmployeeListOnLinkClick() {
 
   function clearList() {
-    document.removeChild('ul');
+    document.querySelector('ul').empty();
     // const list = document.querySelector(".employee-list");
     // list = [];
     // return list;
