@@ -14,12 +14,12 @@ function retrieveEmployeeInformation() {
 
 function addNewElementAsLi() {
   const input = document.querySelector("input").value;
-  const newitem = document.createElement("li");
-  const textnode = document.createTextNode(input);
-  newitem.appendChild(textnode);
+  const new_line_item = document.createElement("li");
+  const text_node = document.createTextNode(input);
+  new_line_item.appendChild(text_node);
 
   const list = document.getElementsByClassName("employee-list");
-  list.insertBefore(newitem, list.firstChild);
+  list.insertBefore(new_line_item, list.firstChild);
   return list;
 }
 
