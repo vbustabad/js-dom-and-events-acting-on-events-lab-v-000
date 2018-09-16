@@ -23,9 +23,9 @@ function addNewLiOnClick() {
 
 function clearEmployeeListOnLinkClick() {
 
-  // function clearList() {
-  //   let list = document.querySelector('ul')
-  //   list.innerHTML = '';
+  function clearList() {
+    let list = document.querySelector('ul')
+    list.innerHTML = '';
   //   // let list = document.querySelector(".employee-list");
   //   // list = '';
   //   // list = removeAllChildrenFromNode(list);
@@ -35,10 +35,7 @@ function clearEmployeeListOnLinkClick() {
   //   // const list = document.querySelector(".employee-list");
   //   // list = [];
   //   // return list;
-  // }
+  }
 
-  document.querySelector('a').addEventListener('click', function(event) {
-    let list = document.querySelector('ul');
-    list.innerHTML = '';
-  });
+  document.querySelector('a').addEventListener('click', clearList());
 }
