@@ -18,7 +18,8 @@ function addNewElementAsLi() {
   const text_node = document.createTextNode(input);
   new_line_item.appendChild(text_node);
 
-  const list = document.getElementsByClassName("employee-list");
+  const list = $(".employee-list");
+  // document.getElementsByClassName("employee-list");
   list.insertBefore(new_line_item, list.firstChild);
 }
 
