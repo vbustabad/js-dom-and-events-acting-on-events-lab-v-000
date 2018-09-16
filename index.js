@@ -19,7 +19,6 @@ function addNewElementAsLi() {
   new_line_item.appendChild(text_node);
 
   const list = document.getElementsByClassName("employee-list");
-  // $(".employee-list");
   list.insertBefore(new_line_item, list.firstChild);
 }
 
