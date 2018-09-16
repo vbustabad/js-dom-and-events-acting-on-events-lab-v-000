@@ -15,12 +15,6 @@ function retrieveEmployeeInformation() {
 function addNewElementAsLi() {
   const input = document.querySelector("input").value;
   document.querySelector(".employee-list").innerHTML = input;
-  // const new_line_item = document.createElement("li");
-  // const text_node = document.createTextNode(input);
-  // new_line_item.appendChild(text_node);
-  //
-  // const list = document.getElementsByClassName("employee-list");
-  // list.insertBefore(new_line_item, list.firstChild);
 }
 
 function addNewLiOnClick() {
