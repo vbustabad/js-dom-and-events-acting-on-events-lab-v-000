@@ -16,7 +16,7 @@ function addNewElementAsLi() {
   const input = document.querySelector("input").value;
   const newitem = document.createElement("li");
   const textnode = document.createTextNode(input);
-  newItem.appendChild(textnode);
+  newitem.appendChild(textnode);
 
   const list = document.getElementsByClassName("employee-list");
   return list.insertBefore(newitem, list.childNodes[0]);
