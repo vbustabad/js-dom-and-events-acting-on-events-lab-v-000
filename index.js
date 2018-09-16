@@ -12,7 +12,7 @@ function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi() {
-  const input = document.querySelector("input").value;
+  const input = retrieveEmployeeInformation();
   document.querySelector(".employee-list").innerHTML = input;
 }
 
