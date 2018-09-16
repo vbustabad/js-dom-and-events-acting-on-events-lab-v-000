@@ -26,7 +26,7 @@ function clearEmployeeListOnLinkClick() {
   function clearList() {
     const list = document.querySelector(".employee-list");
     while (list.firstChild) {
-      list.firstChild.remove();
+      list.removeChild(parent.firstChild);
     }
     // const list = document.querySelector(".employee-list");
     // list = [];
