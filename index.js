@@ -37,5 +37,5 @@ function clearEmployeeListOnLinkClick() {
   //   // return list;
   }
 
-  document.querySelector('a').addEventListener('click', clearList());
+  document.querySelector("a").addEventListener('click', clearList());
 }
