@@ -22,7 +22,6 @@ function addNewLiOnClick() {
 }
 
 function clearEmployeeListOnLinkClick() {
-
   let ul = document.querySelector("ul");
   let button = document.querySelector("a");
 
