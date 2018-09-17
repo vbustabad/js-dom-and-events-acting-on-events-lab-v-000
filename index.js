@@ -17,14 +17,14 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-  document.querySelector('form').addEventListener('click', addNewElementAsLi());
-  document.querySelector('input').value = '';
+  document.querySelector("form").addEventListener('click', addNewElementAsLi());
+  document.querySelector("input").value = '';
 }
 
 function clearEmployeeListOnLinkClick() {
 
   function clearList() {
-    let list = document.querySelector('ul')
+    let list = document.querySelector("ul")
     list.innerHTML = '';
   //   // let list = document.querySelector(".employee-list");
   //   // list = '';
@@ -36,6 +36,6 @@ function clearEmployeeListOnLinkClick() {
   //   // list = [];
   //   // return list;
   }
-  let link = document.querySelector('a');
-  link.addEventListener('click', clearList());
+
+  document.querySelector('a').addEventListener('click', clearList());
 }
